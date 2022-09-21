@@ -49,6 +49,7 @@ const MenuItem = styled.div`
   font -size: 14px;
   margin-left:2rem;
   cursor: pointer;
+
   &:hover{
     color:blue;
     transition: all 0.5s linear infinite;
@@ -59,6 +60,7 @@ const MenuItem = styled.div`
 
     }
   }
+  
   &:after{
     display:block;
     content: '';
@@ -77,11 +79,11 @@ const Navbar = () => {
           <Language>EN</Language>
           <SearchContainer>
             <Input placeholder="Search" />
-            <Search style={{ color: "gray", fontSize: "25px" }}></Search>
+            <Search style={{ color: "gray", fontSize: "18px" }}></Search>
           </SearchContainer>
         </Left>
         <Center>
-          <Logo>Sumu's Store.</Logo>
+          <Logo>RAI STORE.</Logo>
         </Center>
         <Right>
           <MenuItem className="sign-in">SIGN IN</MenuItem>
