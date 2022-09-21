@@ -32,17 +32,17 @@ export const sliderItems = [
 export const categories = [
   {
     id: 1,
-    img: "",
+    img: "https://i.ibb.co/rH9yGjs/Slim-Fit-Cotton-Oxford-Shirt-4-600x.jpg",
     title: "SHIRT STYLE!",
   },
   {
     id: 2,
-    img: "",
+    img: "https://i.ibb.co/thNNS4s/Faxon-Canvas-Low-Top-Sneaker-5-2048x2048-9d675928-1cd3-4347-879a-03c5df60b01c-600x.jpg",
     title: "LOUNGEWEAR LOVE",
   },
   {
     id: 3,
-    img: "",
+    img: "https://i.ibb.co/wrsvyQK/Heritage-Sunglasses-600x.jpg",
     title: "LIGHT JACKETS",
   },
 ];
