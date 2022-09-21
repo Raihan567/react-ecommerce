@@ -35,7 +35,7 @@ const Input = styled.input`
 `;
 const Logo = styled.h1`
   font-weight: bold;
-  color: #af0171;
+  color: #CD104D;
 `;
 const SearchContainer = styled.div`
   display: flex;
