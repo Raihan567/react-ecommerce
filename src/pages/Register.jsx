@@ -34,6 +34,7 @@ const Title = styled.h1`
   font-size: 24px;
   font-weight: 300;
   text-transform: uppercase;
+  text-align: center;
 `;
 const Input = styled.input`
   min-width: 40%;
@@ -54,6 +55,7 @@ const Button = styled.button`
   background-color: #ad1919;
   color: white;
   border-radius: 3px;
+  cursor: pointer;
   transition: all 0.3s ease;
 
   &:hover {

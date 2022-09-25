@@ -52,6 +52,7 @@ const SocialIcon = styled.div`
   margin-right: 1.1rem;
   cursor: pointer;
   transition: all 0.5s ease;
+
   &:hover {
     transform: scale(1.1);
   }
@@ -69,13 +70,9 @@ const List = styled.ul`
   margin: 0;
   padding: 0;
   list-style: none;
-  /* display: flex; */
-
-  /* flex-wrap: wrap; */
 `;
 
 const ListItem = styled.li`
-  width: 50%;
   margin-bottom: 5px;
   cursor: pointer;
   transition: all 0.2s ease;

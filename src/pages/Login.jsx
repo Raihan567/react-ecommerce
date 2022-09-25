@@ -29,11 +29,14 @@ const Wrapper = styled.div`
 const Form = styled.form`
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
+  margin: 10px 0;
 `;
 const Title = styled.h1`
   font-size: 24px;
   font-weight: 300;
   text-transform: uppercase;
+  text-align: center;
 `;
 const Input = styled.input`
   min-width: 40%;
@@ -48,39 +51,46 @@ const Agreement = styled.span`
 `;
 const Button = styled.button`
   text-transform: uppercase;
-  width: 100%;
+  width: 98%;
   border: none;
   padding: 15px 20px;
   background-color: #ad1919;
   color: white;
   border-radius: 3px;
+  margin: 20px 0;
+  cursor: pointer;
   transition: all 0.3s ease;
 
   &:hover {
     background-color: #1f1d1d;
   }
 `;
-const Register = () => {
+
+const Link = styled.a`
+  font-size: 12px;
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+  margin: 5px 0;
+`;
+
+const Login = () => {
   return (
     <Container>
       <Wrapper>
-        <Title>Create your account</Title>
+        <Title>Sign In</Title>
         <Form>
-          <Input placeholder="Your name" />
-          <Input placeholder="Last name" />
-          <Input placeholder="Username" />
           <Input placeholder="Email" />
-          <Input placeholder="password" />
-          <Input placeholder="confirm password" />
-          <Agreement>
-            By creating an account Processing my personal data in accordance
-            with the privacy policy.{" "}
-          </Agreement>
-          <Button>Create</Button>
+          <Input placeholder="Password" />
+          <Button>Login</Button>
+          <Link src="https://www.google.com/">
+            DO NOT YOU REMEMBER THE PASSWORD
+          </Link>
+          <Link src="https://www.google.com/">CREATE A NEW ACCOUNT </Link>
         </Form>
       </Wrapper>
     </Container>
   );
 };
 
-export default Register;
+export default Login;
