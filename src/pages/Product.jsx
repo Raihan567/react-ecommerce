@@ -9,7 +9,7 @@ import Newsletter from "../Components/Newsletter";
 const Container = styled.div``;
 
 const Wrapper = styled.div`
-  padding: 0 3rem;
+  padding: 2rem 3rem;
   display: flex;
 `;
 
